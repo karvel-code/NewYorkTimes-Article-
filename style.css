@@ -3,3 +3,9 @@ body {
   font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
   line-height: normal;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+
+}
