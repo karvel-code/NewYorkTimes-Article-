@@ -29,6 +29,13 @@ a {
   color: white;
   text-align: center;
 }
+
+main {
+  width: 75%;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
 .content-head {
   position: relative;
   width: calc(100% - 40px);
@@ -36,11 +43,38 @@ a {
   margin-left: 20px;
   margin-right: 20px;
 }
-main {
-  margin: 1px 10px 1px 10px;
-  width: 75%;
-}
+
+
 .drewbarrymore {
   width: 700px;
-  length: 600px;
+  height: 600px;
 }
+
+.cards-bang {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+.cards-bang > figure {
+  width: 20%;
+}
+.bang-details {
+  width: 75%;
+}
+
+.bang-image {
+  width: 150px;
+}
+
+.more-reads{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.more-reads > figure {
+    width: 20%;
+}
+
+
+
