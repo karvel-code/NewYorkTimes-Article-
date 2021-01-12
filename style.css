@@ -3,3 +3,12 @@ body {
   font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
   line-height: normal;
 }
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
