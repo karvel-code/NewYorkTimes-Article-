@@ -13,9 +13,10 @@ a {
   text-decoration: none;
   color: black;
 }
-.header-left {
+.header-left i {
   margin-right: 35px;
   align-self: flex-start;
+  margin-left: 1px;
 }
 .header-center {
   align-self: center;
@@ -28,6 +29,18 @@ a {
   color: white;
   text-align: center;
 }
-.fa fa-bars {
-  margin-right: 5%;
+.content-head {
+  position: relative;
+  width: calc(100% - 40px);
+  max-width: 700px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+main {
+  margin: 1px 10px 1px 10px;
+  width: 75%;
+}
+.drewbarrymore {
+  width: 700px;
+  length: 600px;
 }
