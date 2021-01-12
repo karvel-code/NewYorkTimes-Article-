@@ -2,8 +2,6 @@ body {
   font-size: 18px;
   font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
   line-height: normal;
-  margin-left: 300px;
-  margin-right: 300px;
 }
 header {
   display: flex;
