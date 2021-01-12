@@ -6,9 +6,28 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 a {
   text-decoration: none;
+  color: black;
+}
+.header-left {
+  margin-right: 35px;
+  align-self: flex-start;
+}
+.header-center {
+  align-self: center;
+}
+.header-right button {
+  height: 35px;
+  background-color: #326892;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  text-align: center;
+}
+.fa fa-bars {
+  margin-right: 5%;
 }
