@@ -144,7 +144,7 @@ a {
 
 .side-astronomy > figure {
   width: 30%;
-  margin:auto;
+  margin: auto;
 }
 
 .side-astronomy > figure > img {
@@ -160,14 +160,14 @@ a {
   position: absolute;
   right: 10px;
   top: 0px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
 }
 
 .more-reads > div {
   margin: 20px auto;
   padding: 20px auto;
-  border-top:  rgb(11, 12, 12);
+  border-top: rgb(11, 12, 12);
 }
 .space {
   display: flex;
@@ -179,4 +179,16 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 70%;
+  position: absolute;
+}
+.conclusion {
+  position: relative;
+}
+.services {
+  position: absolute;
+  width: 25%;
+  margin: auto;
+  top: 0px;
+  right: 25px;
 }
