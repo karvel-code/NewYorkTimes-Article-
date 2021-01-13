@@ -66,7 +66,7 @@ a {
   width: calc(100% - 80px);
   max-width: 650px;
   margin: auto;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 2;
   font-size: 18px;
 }
@@ -74,7 +74,6 @@ a {
 .more-action {
   text-align: center;
   line-height: 0.5;
-
 }
 
 .middle-content {
@@ -117,7 +116,6 @@ a {
 .cards-bang {
   display: flex;
   flex-wrap: wrap;
-  
 }
 .cards-bang > figure {
   width: 24%;
@@ -131,13 +129,31 @@ a {
   width: 150px;
 }
 
-.more-reads {
+.side-astronomy {
+  width: 60%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
-
-.more-reads > figure {
-  width: 20%;
+.side-astronomy img {
+  width: 250px;
+}
+.astronomy {
+  width: 100%;
+}
+.editor1 {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.editor2 > img {
+  width: 100%;
+}
+.editor2 > figcaption {
+  font-size: smaller;
 }
 .space {
   display: flex;
