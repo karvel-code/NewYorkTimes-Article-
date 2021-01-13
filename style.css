@@ -129,31 +129,45 @@ a {
   width: 150px;
 }
 
+.bottom-content {
+  position: relative;
+}
+
+.more {
+  width: 75%;
+  align-items: left;
+}
 .side-astronomy {
-  width: 60%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.side-astronomy img {
-  width: 250px;
+
+.side-astronomy > figure {
+  width: 30%;
+  margin:auto;
 }
-.astronomy {
-  width: 100%;
+
+.side-astronomy > figure > img {
+  width: 300px;
 }
-.editor1 {
-  width: 60%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+.side-astronomy > figure > figcaption {
+  width: 75%;
+  margin-top: 5px;
 }
-.editor2 > img {
-  width: 100%;
+
+.more-reads {
+  max-width: 300px;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
 }
-.editor2 > figcaption {
-  font-size: smaller;
+
+.more-reads > div {
+  margin: 20px auto;
+  padding: 20px auto;
+  border-top:  rgb(11, 12, 12);
 }
 .space {
   display: flex;
