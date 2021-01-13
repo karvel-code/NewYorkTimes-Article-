@@ -180,10 +180,13 @@ a {
   flex-direction: row;
   justify-content: space-between;
   width: 70%;
-  position: absolute;
 }
 .conclusion {
   position: relative;
+}
+.footer1 {
+  border-top: 1px;
+  border-bottom: 1px;
 }
 .services {
   position: absolute;
@@ -192,4 +195,7 @@ a {
   top: 0px;
   right: 25px;
 }
-
+.footer1 h2 {
+  border-top: 1px;
+  margin: 1px;
+}
