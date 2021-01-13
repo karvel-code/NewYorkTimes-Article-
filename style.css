@@ -13,7 +13,7 @@ nav {
 
 header {
   position: sticky;
-  top: 0px;
+  top: 0;
   z-index: 1;
   background-color: white;
 }
@@ -50,12 +50,12 @@ a {
 }
 
 .content-head > h1 {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
 
 .social-share > i {
-  margin: 0px 5px;
+  margin: 0 5px;
 }
 
 .feature-image {
@@ -96,10 +96,6 @@ a {
   position: relative;
 }
 
-.more {
-  border-top: 1px solid black;
-}
-
 .more-action > a {
   color: rgb(81, 104, 96);
 }
@@ -136,7 +132,7 @@ a {
   max-width: 300px;
   position: absolute;
   right: 10px;
-  top: 0px;
+  top: 0;
 }
 
 .big-bang {
@@ -174,8 +170,9 @@ a {
 }
 
 .more {
+  border-top: 1px solid black;
   width: 70%;
-  align-items: left;
+  align-items: center;
 }
 
 .side-astronomy {
@@ -203,7 +200,7 @@ a {
   max-width: 300px;
   position: absolute;
   right: 10px;
-  top: 0px;
+  top: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   border-top: 1px solid black;
@@ -245,7 +242,7 @@ a {
   position: absolute;
   width: 200px;
   margin: auto;
-  top: 0px;
+  top: 0;
   right: 25px;
   border-left: 2px solid rgb(20, 20, 20);
   padding-left: 10px;
