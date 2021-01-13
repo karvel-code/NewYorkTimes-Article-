@@ -208,7 +208,8 @@ a {
 
 .more-reads > div {
   margin: 20px auto;
-  padding: 20px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-top: rgb(11, 12, 12);
 }
 
