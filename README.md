@@ -10,7 +10,7 @@ This is a project to demonstrate the exisiting knowledge of HTML and CSS It is a
 
 <i>Built With HTML5, CSS3, GIT, and VSCODE</i>
 
-#Live Demo :
+#Live Demo : https://karvel-code.github.io/NewYorkTimes-Article-/
 
 <h1>Getting Started</h1>
 

@@ -3,21 +3,32 @@ body {
   font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
   line-height: normal;
 }
-header {
+
+nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
+}
+
 a {
   text-decoration: none;
   color: black;
 }
+
 .header-left i {
   margin-right: 35px;
   align-self: flex-start;
   margin-left: 1px;
 }
+
 .header-center {
   align-self: center;
 }
@@ -56,14 +67,17 @@ a {
 .feature-image > img {
   width: 100%;
 }
+
 .feature-image > figcaption {
   width: 85%;
   font-size: 15px;
   opacity: 0.6;
 }
- .mid-image {
-   width: 800px;
- }
+
+.mid-image {
+  width: 800px;
+}
+
 .content {
   width: calc(100% - 80px);
   max-width: 650px;
@@ -80,14 +94,28 @@ a {
 
 .middle-content {
   position: relative;
-  
 }
 
-.more{
+.more {
   border-top: 1px solid black;
 }
+
 .more-action > a {
   color: rgb(81, 104, 96);
+}
+
+.button-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: smaller;
+}
+
+.signup {
+  height: 35px;
+  background-color: white;
+  border-radius: 2px;
+  border: 2px solid black;
+  color: black;
+  text-align: center;
 }
 
 .side-content > div {
@@ -96,6 +124,7 @@ a {
   align-items: center;
   font-size: 13px;
 }
+
 .side-content > div > img {
   width: 100px;
   height: 100px;
@@ -124,10 +153,12 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
+
 .cards-bang > figure {
   width: 24%;
   margin: auto;
 }
+
 .bang-details {
   width: 75%;
 }
@@ -146,6 +177,7 @@ a {
   width: 70%;
   align-items: left;
 }
+
 .side-astronomy {
   display: flex;
   flex-wrap: wrap;
@@ -161,6 +193,7 @@ a {
 .side-astronomy > figure > img {
   width: 250px;
 }
+
 .side-astronomy > figure > figcaption {
   width: 75%;
   margin-top: 5px;
@@ -181,6 +214,7 @@ a {
   padding: 20px auto;
   border-top: rgb(11, 12, 12);
 }
+
 .space {
   display: flex;
   flex-wrap: wrap;
@@ -194,17 +228,19 @@ a {
   width: 80%;
   font-size: 14px;
 }
+
 .conclusion {
   position: relative;
-  
 }
+
 .footer-section {
   width: 90%;
-  margin:auto;
+  margin: auto;
   border-top: 1px solid rgb(27, 27, 26);
   border-bottom: 1px solid rgb(43, 41, 39);
   background-color: white;
 }
+
 .services {
   position: absolute;
   width: 200px;
@@ -221,13 +257,16 @@ a {
   align-items: center;
   text-align: justify;
 }
+
 .services small {
-  padding-bottom: 5px;;
+  padding-bottom: 5px;
 }
+
 .footer-section h2 {
   border-top: 2px solid rgb(27, 27, 26);
   margin: 1px;
 }
+
 .contact {
   font-size: 10px;
   max-width: 1000px;
