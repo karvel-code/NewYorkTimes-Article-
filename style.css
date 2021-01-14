@@ -87,8 +87,8 @@ a {
 
 .book-mark {
   height: 17px;
-  opacity: .6;
-  transform: scaleY(1.5)
+  opacity: 0.6;
+  transform: scaleY(1.5);
 }
 
 .feature-image {
