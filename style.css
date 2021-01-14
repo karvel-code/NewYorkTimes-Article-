@@ -22,7 +22,7 @@ a {
   text-decoration: none;
   color: black;
 }
-
+ 
 .header-left i {
   margin-right: 35px;
   align-self: flex-start;
@@ -53,9 +53,19 @@ a {
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
-
-.social-share > i {
-  margin: 0 5px;
+.share{
+  display: inline;
+}
+.social-share {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1px solid #eef;
+  background-color: whitesmoke;
+  padding: 5px;
+  vertical-align: middle;
+  
 }
 
 .feature-image {
@@ -121,7 +131,7 @@ a {
   font-size: 13px;
 }
 
-.side-content > div > img {
+.side-content > div > a > img {
   width: 100px;
   height: 100px;
   margin-right: 5px;
