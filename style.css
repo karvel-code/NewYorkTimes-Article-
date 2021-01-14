@@ -38,8 +38,11 @@ a {
   background-color: #326892;
   border-radius: 2px;
   border: none;
-  color: white;
   text-align: center;
+}
+
+.header-right > button > a {
+  color: white;
 }
 
 .content-head {
@@ -161,7 +164,7 @@ a {
   flex-wrap: wrap;
 }
 
-.cards-bang > figure {
+.cards-bang > div {
   width: 23%;
   margin-left: auto;
   margin-right: auto;
@@ -212,11 +215,11 @@ a {
   width: 100%;
 }
 
-.side-astronomy figure {
+.side-astronomy div {
   margin: 0 5px;
 }
 
-.side-astronomy > a > figure > p {
+.side-astronomy > a > div > p {
   width: 100%;
   font-size: 16px;
   text-align: left;
@@ -225,7 +228,11 @@ a {
   margin: 2px 0;
 }
 
-.side-astronomy > a > figure > small {
+.services small {
+  padding-bottom: 5px;
+}
+
+.side-astronomy > a > div > small {
   opacity: 0.5;
   text-align: right;
   font-size: 12px;
@@ -233,7 +240,7 @@ a {
   margin: 0;
 }
 
-.side-astronomy > a > figure > figcaption {
+.side-astronomy > a > div > figcaption {
   width: 100%;
   margin-top: 5px;
   opacity: 0.5;
@@ -249,7 +256,6 @@ a {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   border-top: 1px solid black;
-  text-emphasis: bold;
 }
 
 .more-reads > div {
@@ -277,10 +283,10 @@ a {
   margin: 15px;
 }
 
-.footer-details > a{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10pt;
+.footer-details > a {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10pt;
 }
 
 .conclusion {
@@ -318,10 +324,6 @@ a {
   display: flex;
   align-items: center;
   text-align: justify;
-}
-
-.services small {
-  padding-bottom: 5px;
 }
 
 .contact {
