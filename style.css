@@ -33,16 +33,26 @@ a {
   align-self: center;
 }
 
-.header-right button {
+.header-right a {
   height: 35px;
   background-color: #326892;
   border-radius: 2px;
   border: none;
   text-align: center;
+  color: white;
+  font-size: 13px;
+  padding: 10px;
+  font-weight: bold;
 }
 
-.header-right > button > a {
-  color: white;
+.comment-button {
+  padding: 3px 7px;
+  outline: none;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .content-head {
@@ -58,7 +68,10 @@ a {
 }
 
 .share {
-  display: inline;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
 }
 
 .social-share {
@@ -70,6 +83,12 @@ a {
   background-color: whitesmoke;
   padding: 5px;
   vertical-align: middle;
+}
+
+.book-mark {
+  height: 17px;
+  opacity: .6;
+  transform: scaleY(1.5)
 }
 
 .feature-image {
