@@ -209,12 +209,17 @@ a {
   width: 100%;
 }
 
+.side-astronomy figure {
+  margin: 0 5px;
+}
+
 .side-astronomy > a > figure > p {
   width: 100%;
   font-size: 16px;
   text-align: left;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding: 0;
+  margin: 2px 0;
 }
 
 .side-astronomy > a > figure > small {
