@@ -241,13 +241,14 @@ a {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   border-top: 1px solid black;
+  text-emphasis: bold;
 }
 
 .more-reads > div {
   margin: 20px auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-top: rgb(11, 12, 12);
+  border-top: 1px solid #ccc;
 }
 
 .space {
@@ -264,6 +265,18 @@ a {
   font-size: 14px;
 }
 
+
+
+.footer-details {
+  margin: 15px;
+}
+
+.footer-details > a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10pt;
+}
+
 .conclusion {
   position: relative;
 }
@@ -271,10 +284,20 @@ a {
 .footer-section {
   width: 90%;
   margin: auto;
-  border-top: 1px solid rgb(27, 27, 26);
+  border-top: 2px solid #ccc;
   border-bottom: 1px solid rgb(43, 41, 39);
   background-color: white;
 }
+
+.footer-head {
+  display: flex;
+  margin-top: 1px;
+  border-top: 1px solid #ccc;
+  padding: 5px 0;
+  justify-content: space-between;
+}
+
+
 
 .services {
   position: absolute;
@@ -297,14 +320,15 @@ a {
   padding-bottom: 5px;
 }
 
-.footer-section h2 {
-  border-top: 2px solid rgb(27, 27, 26);
-  margin: 1px;
-}
-
 .contact {
+  display: flex;
+  justify-content: space-between;
   font-size: 10px;
   max-width: 1000px;
   width: calc(100% - 80px);
   margin: auto;
+}
+
+a:hover {
+  text-decoration: underline;
 }
