@@ -259,12 +259,17 @@ a {
   margin: 0;
 }
 
-.side-astronomy > a > div > figcaption {
+.editors-pick-img > figcaption {
   width: 100%;
   margin-top: 5px;
   opacity: 0.5;
   text-align: right;
   font-size: 12px;
+}
+
+.editors-pick-img {
+  margin: 1px;
+  padding: 0;
 }
 
 .more-reads {
