@@ -1,6 +1,6 @@
 body {
   font-size: 18px;
-  font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: normal;
 }
 
@@ -53,9 +53,11 @@ a {
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
+
 .share {
   display: inline;
 }
+
 .social-share {
   display: inline-block;
   width: 15px;
@@ -160,21 +162,22 @@ a {
 }
 
 .cards-bang > figure {
-  width: 24%;
+  width: 23%;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  padding: 0 5px;
 }
 
 .bang-details {
-  width: 80%;
+  width: 100%;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 15px;
+  font-size: 13px;
+  text-align: left;
 }
 
 .bang-image {
-  width: 80%;
-  height: 25%;
+  height: 130px;
   padding: 5px;
   margin: auto;
 }
@@ -270,8 +273,6 @@ a {
   font-size: 14px;
 }
 
-
-
 .footer-details {
   margin: 15px;
 }
@@ -301,8 +302,6 @@ a {
   padding: 5px 0;
   justify-content: space-between;
 }
-
-
 
 .services {
   position: absolute;
@@ -336,4 +335,13 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.short-line {
+  width: 70px;
+  float: left;
+}
+
+.author {
+  font-weight: normal;
 }
