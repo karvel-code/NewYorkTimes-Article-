@@ -391,7 +391,7 @@ a:hover {
   padding: 5px;
   border-radius: 3px;
   border: 1px solid #ccc;
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .text textarea {
