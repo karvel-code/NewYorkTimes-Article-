@@ -281,6 +281,48 @@
             <br>
         </p>
     </article>
+    <hr>
+    <section class="comment-form">
+        <form action="POST">
+            <h3>Leave a comment here</h3>
+            <p>Tell us what you think about the article</p>
+            <div class="text">
+                <label for="name">Full Name</label> 
+                <input type="text" name="name" id="name" maxlength="20" required="required"> 
+            </div>
+
+            <div class="text">
+                <label for="email">Email</label><br>
+                <input type="text" name="email" id="email" maxlength="20" required="required">
+            </div>
+
+            <div class="text">
+                <label for="comment">Comment</label>
+                <textarea name="comment" id="comment" maxlength="250" required="required" placeholder="Type Your Comment here..."></textarea>
+            </div>
+
+            <label for="">What is your opinion about this article </label>
+
+            <div>
+                <input type="radio" name="opinion" value="positive" id="positive">
+                <label for="positive">Positive</label> 
+            </div>
+            <div>
+                <input type="radio" name="opinion" value="negative" id="negative">
+                <label for="negative">Negative</label>
+            </div>
+            <div>
+                <input type="radio" name="opinion" value="neutral" id="neutral">
+                <label for="opinion">Neutral</label>
+            </div>
+            <div class="subscribe">
+                <input type="checkbox" name="subscribe" value="subscribe" id="subscribe">
+                <label for="subscribe">I want to subscribe to this Newletter</label>
+            </div>
+            <button>Send</button>
+        </form>
+    </section>
+
     <section class= 'bottom-content'>      
         <article class= 'more'>
            <a href="#"><h1>More in Space and astronomy</h1> </a>
